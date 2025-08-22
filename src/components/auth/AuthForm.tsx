@@ -41,7 +41,14 @@ export const AuthForm = () => {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
-        <CardHeader className="space-y-1">
+        <CardHeader className="space-y-4">
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/48deaaf6-c94d-4b18-b868-5d0b20e97e83.png" 
+              alt="Optimagine AI" 
+              className="h-12 w-auto"
+            />
+          </div>
           <CardTitle className="text-2xl font-bold text-center">Welcome</CardTitle>
           <CardDescription className="text-center">
             Choose your preferred sign-in method
